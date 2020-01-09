@@ -8,6 +8,11 @@
     "scripts": {
         "start": "node index.js"
     },
+    "engines": {
+	    "node": ">=10.6.0 <10.6.0",
+	    "yarn": ">=1.10.0",
+	    "npm": ">=6.0"
+  },
      "dependencies": {
         "bcrypt": "3.0.6",
         "compression": "^1.7.4",
